@@ -12,6 +12,17 @@
 
 ActiveRecord::Schema.define(version: 2021_06_24_171122) do
 
+  create_table "collections", force: :cascade do |t|
+    t.string "title"
+    t.string "volume_count"
+    t.string "author"
+    t.string "description"
+    t.string "img"
+    t.string "release_year"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "mangas", force: :cascade do |t|
     t.string "title"
     t.string "volume_number"
@@ -19,18 +30,7 @@ ActiveRecord::Schema.define(version: 2021_06_24_171122) do
     t.string "description"
     t.string "img"
     t.string "release_year"
-    t.integer "series_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "series", force: :cascade do |t|
-    t.string "title"
-    t.string "volume_count"
-    t.string "author"
-    t.string "description"
-    t.string "img"
-    t.string "release_year"
+    t.integer "collection_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

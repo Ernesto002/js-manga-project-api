@@ -1,6 +1,6 @@
-class CreateSeries < ActiveRecord::Migration[6.0]
+class CreateCollections < ActiveRecord::Migration[6.0]
   def change
-    create_table :series do |t|
+    create_table :collections do |t|
       t.string :title
       t.string :volume_count
       t.string :author

@@ -1,3 +1,3 @@
 class Manga < ApplicationRecord
-    belongs_to :series
+    belongs_to :collection
 end

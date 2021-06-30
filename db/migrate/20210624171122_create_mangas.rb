@@ -7,7 +7,7 @@ class CreateMangas < ActiveRecord::Migration[6.0]
       t.string :description
       t.string :img
       t.string :release_year
-      t.integer :series_id
+      t.integer :collection_id
 
       t.timestamps
     end
