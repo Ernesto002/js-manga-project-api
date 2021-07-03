@@ -47,6 +47,6 @@ class CollectionsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def series_params
-      params.require(:collection).permit(:title, :volume_count, :author, :description, :img, :release_year)
+      params.require(:collection).permit(:title, :volume_count, :author, :description, :release_year)
     end
 end

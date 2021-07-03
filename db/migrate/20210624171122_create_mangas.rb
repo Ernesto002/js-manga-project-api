@@ -5,7 +5,6 @@ class CreateMangas < ActiveRecord::Migration[6.0]
       t.string :volume_number
       t.string :author
       t.string :description
-      t.string :img
       t.string :release_year
       t.integer :collection_id
 
