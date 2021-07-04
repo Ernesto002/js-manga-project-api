@@ -3,7 +3,7 @@ class MangasController < ApplicationController
 
   # GET /mangas
   def index
-    @mangas = Manga.all
+    @mangas = Manga.alphabetical
 
     render json: @mangas
   end
