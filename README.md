@@ -1,24 +1,51 @@
-# README
+# The Manga Index
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to The Manga Index! With this application you can find information on any piece of Manga you find on our home page. If you can't find a particular series
+on our page then feel free to add your own. This also applies to the volumes within any series as well!
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+Clone this repository by entering
+```bash
+git clone git@github.com:Ernesto002/js-manga-project-api.git
+```
+into your terminal
 
-* System dependencies
+Then clone the front-end portion of the app by entering
+```bash
+git clone git@github.com:Ernesto002/js-manga-project-frontend.git
+```
+into your terminal
 
-* Configuration
+# Usage
 
-* Database creation
+Once you've cloned both repositories, open up the API file then run
+```bash
+rake db:migrate
+rake db:seed
+```
+into your terminal to seed the database
 
-* Database initialization
+Then run 
+```bash
+rails s
+```
+into your terminal to start running the API in order for the app to function.
 
-* How to run the test suite
+Then open the front-end file and run
+```bash
+explorer.exe index.html
+```
+into your terminal for windows
 
-* Services (job queues, cache servers, search engines, etc.)
+OR
 
-* Deployment instructions
+```bash
+open index.html
+```
+into your terminal for mac in order to use the app.
 
-* ...
+# Front-end repository
+
+The front-end repository for this app can be found [here](https://github.com/Ernesto002/js-manga-project-frontend)
+
