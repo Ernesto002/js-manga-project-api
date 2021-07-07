@@ -49,6 +49,10 @@ into your terminal for mac in order to use the app.
 
 The front-end repository for this app can be found [here](https://github.com/Ernesto002/js-manga-project-frontend)
 
+# Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/Ernesto002/js-manga-project-api. This project is intended to be a safe, welcoming space for collaboration, and contributers are expected to adhere to the [Code of Conduct](https://github.com/Ernesto002/js-manga-project-api/blob/master/CODE_OF_CONDUCT.md).
+
 # License
 
 This code is available for the general public under this [LICENSE](https://github.com/Ernesto002/js-manga-project-api/blob/master/LICENSE).
